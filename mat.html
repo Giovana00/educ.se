@@ -10,6 +10,24 @@
     <link rel="stylesheet" href="./bootstrap/Raí/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
+<!-- Início Menu -->
+  <header>
+    <div class="container-grid conteudo-header">
+      <img class="logo" href="./home.html" src="./img/Logo.img/EDUC.SE.png" alt="Logo EDUC.SE" />
+      <nav id="menu-header" class="menu-header">
+        <a href="./home.html" title="Início da Página" class="fa-solid fa-house" style="color: #329adb;"></a>
+        <a id="font" href="./ling.html">Linguagens</a>
+        <a id="font" href="./mat.html">Matemática</a>
+        <a id="font" href="./hum.html">Humanas</a>
+        <a id="font" href="./nat.html">Natureza</a>
+        <a id="font" href="mailto:contatodireto@educ.se.br">Contate-nos</a>
+      </nav>
+      <a class="menu-barras" href="javascript: void(0)" onclick="mostrarMenu()">
+        <i id="icone-menu" class="fas fa-bars"></i>
+      </a>
+    </div>
+  </header>
+<!-- Fim Menu -->
 <!-- Início Introdução -->
 <section class="secao-introducao">
     <div class="secao-intro-img"><img src="./img/Mat.img/Fundo matemática 3.1.1.jpg" alt="Faixa Temática"></div>
@@ -24,9 +42,13 @@
             <div class="texto-sobre">
                 <span class="texto-topicos">Tópicos abordados:</span>
                 <h3>Matemática</h3>
-                <p>
-                    Fração <br> Porcentagem <br> Regra de Três <br> Fórmula de Bháskara <br> Trigonometria <br>
-                </p>
+                <ul>    
+                <li>Fração</li>  
+                <li>Porcentagem</li>
+                <li>Regra de Três</li>
+                <li>Fórmula de Bháskara</li>
+                <li>Trigonometria</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -54,8 +76,7 @@
 <!-- Início Conteúdo 1 -->
 <section class="secao-fracao">
     <div class="container-grid">
-        <h2>Fração</h2>
-        <a href="https://www.youtube.com/playlist?list=PL-LPJn0YTIEF9pD-QUNRTGj1pXmJ1wsXx" class="fa fa-youtube" aria-hidden="true" target="_blank"></a>
+        <h1>Fração<a href="https://www.youtube.com/playlist?list=PL-LPJn0YTIEF9pD-QUNRTGj1pXmJ1wsXx" class="fa fa-youtube" aria-hidden="true" target="_blank"></a></h1> 
         <p></p>
         <div class="conteudo-fracao">
             <img 
@@ -77,62 +98,80 @@
                 Encontre um denominador comum.
                 Some os numeradores.
                 Mantenha o denominador comum. <br>
-                <img class="imagem-soma" src="./img/Mat.img/soma de frações.png" alt="Soma de Frações"> <br>
+                <img class="soma-imagem" src="./img/Mat.img/soma de frações.png" alt="Soma de Frações"> <br>
 
                 <strong>Subtração (diferença):</strong>
                 <br>
                 Encontre um denominador comum.
                 Subtraia os numeradores.
                 Mantenha o denominador comum.<br>
-                <img class="imagem-subtracao" src="./img/Mat.img/subtração de frações.png" alt="Subtração de Frações"> <br>
+                <img class="subtracao-imagem" src="./img/Mat.img/subtração de frações.png" alt="Subtração de Frações"> <br>
 
                 <strong>Multiplicação:</strong>
                 <br>
                 Multiplique os numeradores.
                 Multiplique os denominadores. <br>
-                <img class="imagem-multiplicacao" src="./img/Mat.img/multiplicação de frações.png" alt="Multiplicação de Frações"> <br>
+                <img class="multiplicacao-imagem" src="./img/Mat.img/multiplicação de frações.png" alt="Multiplicação de Frações"> <br>
 
                 <strong>Divisão:</strong>
                 <br>
                 Inverta a fração que está sendo dividida.
                 Aplique a multiplicação, usando a fração invertida. <br>
-                <img class="imagem-divisao" src="./img/Mat.img/divisão de frações.jpg" alt="Divisão de Frações">
+                <img class="divisao-imagem" src="./img/Mat.img/divisão de frações.jpg" alt="Divisão de Frações">
             </p>
         </div>
     </div>
 </section>
 <!-- Fim Conteúdo 1 -->
-<!-- Início Localização -->
-<section class="endereco" id="endereco">
-    <div class="container-grid conteudo-endereco">
-        <h2>Endereço:</h2>
-        <div class="texto-endereco">
-            <p>
-                Alameda Barão de Limeira, 539, Santa Cecília, São Paulo - SP CEP: 01202-001
-            </p>
-        </div>
-        <div class="container-mapa">
-            <!-- <a href="#" target="_blank">
-                <img class="mapa" src="./img/mapa.png" alt="Mapa mostrando a localização">
-            </a> -->
-            <iframe class="mapa-responsivo" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14631.550886035546!2d-46.6463829!3d-23.5365404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5843deb99025%3A0xb23619858bc7e63e!2sSenai%20Santa%20Cec%C3%ADlia%20(Inform%C3%A1tica)!5e0!3m2!1spt-BR!2sbr!4v1700338367954!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="container-video">
-            <iframe class="video-responsivo" src="https://www.youtube.com/embed/KesgcZ2sI6Y?si=XzL89QlOm0McaeIN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-        </div>
-    </div>
-</section>
-<!-- Fim Localização -->
+<!-- Faixa final -->
+<div class="secao-fim-img"><img src="./img/Mat.img/Fundo matemática 3.1.1.jpg" alt="Faixa Temática"></div>
+<!-- Faixa final -->
 <!-- Início Footer -->
-<footer>
-    <span>Copyright &copy; 2023 - Escola Senai de Informática</span>
-</footer>        
-<!-- Fim Footer -->      
-</main>
-<!-- Fim Main -->  
-
+        <footer><footer class="rodape">
+            <div class="container">
+                <div class="row m-0">
+                    <!-- Inicio logo -->
+                    <div id="logo-rodape" class="col-md-4">
+                        <figure>
+                            <img src="./img/Logo.img/EDUC.SE.png" alt="Logo Rodape">
+                        </figure>
+                    </div>
+                    <!-- Fim logo -->
+                    <!-- Inicio Texto -->
+                    <div class="col-md-4">
+                        <div class="info-contato">
+                            <p><strong>Email: </strong></p>
+                                <p>contatodireto@educ.se.br</p><br>
+                            <p><strong>Telefone: </strong></p>
+                                <p>+55 15 4002-3169</p>
+                        </div>
+                    </div>
+                    <!-- Fim Texto -->
+                    <!-- Inicio Mídias sociais -->
+                    <div class="col-md-4">
+                        <figure class="redes-sociais">
+                            <a href="https://facebook.com"><img src="./img/Rede social.img/face.png" alt="Facebook"></a>
+                            <a href="https://instagram.com"><img src="./img/Rede social.img/insta.png" alt="Instagram"></a>
+                            <a href="https://youtube.com"><img src="./img/Rede social.img/youtube.png" alt="Youtube"></a>
+                            <a href="https://web.whatsapp.com"><img src="./img/Rede social.img/whats.png" alt="WhatsApp"></a>
+                        </figure>
+                        <br>
+                    <nav id="footer-header" class="footer-header">
+                        <a href="./home.html" title="Início da Página" class="fa-solid fa-house" style="color: #000;"></a>
+                        <a id="font" href="./ling.html">Linguagens</a>
+                        <a id="font" href="./mat.html">Matemática</a>
+                        <a id="font" href="./hum.html">Humanas</a>
+                        <a id="font" href="./nat.html">Natureza</a>
+                        <a id="font" href="mailto:contatodireto@educ.se.br">Contate-nos</a>
+                    </nav>
+                    </div>
+                    <!-- Fim Mídias sociais -->
+            <span>Copyright &copy; 2023 - Escola Senai de Informática</span>
+        </footer>        
+    <!-- Fim Footer -->      
+    </main>
+    <!-- Fim Main -->  
+</body>
 
 
 
