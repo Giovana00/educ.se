@@ -15,7 +15,7 @@ body {
 }
 /* Início estilo > Social > Header / Menu */
 .conteudo-social {
-    background-color: #080324;
+    background-color: #2fbd82;
     width: 100%;
     position: fixed;
     height: 35px;
@@ -53,7 +53,7 @@ body {
 
 header {
     z-index: 1;
-    background-color: #F9003D;
+    background-color: #2fbd82;
     height: 80px;
     position: fixed;
     width: 100vw;
@@ -124,7 +124,7 @@ header {
 /* Fim estilo > Social > Header / Menu */
 /* Início estilo Banner */
 .banner {
-    background-image: url(../img/imagem-fundo-banner.jpg);
+    background-image: url(../img/Nat.img/Fundo\ Banner\ Ciências.jpg);
     height: 768px;
     background-repeat: no-repeat;
     background-position: center;
@@ -151,23 +151,20 @@ h1 {
 }
 .titulo-senai {
     font-family: 'Courier New', Courier, monospace;
-    color: #F9003D;
+    color: #FFFFFF;
     font-size: 50px;
     text-transform: uppercase;
     font-weight: 600;
 }
-.mouse {
-    width: 80px;
-}
 /* Fim estilo Banner */
 /* Início Sobre Projetos */
 .sobre-projetos {
-    background-color: #080324;
+    background-color: rgb(127, 197, 156);
     padding-top: 40px;
     padding-bottom: 40px;
 }
 .sobre-projetos h2 {
-    color: #F9003D;
+    color: #FFFFFF;
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -190,7 +187,7 @@ h1 {
     font-weight: 600;
 }
 .conteudo-sobre h3 {
-    color: #FFAF00;
+    color: #FFFFFF;
     font-size: 45px;
     font-weight: 500;
 }
@@ -198,11 +195,13 @@ h1 {
     color: #FFFFFF;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
+    font-size: 20px;
 }
 /* Fim Sobre Projetos */
 /* Início estilo seção INFO */
 .info {
-    background-image: url(../img/imagem-fundo-info.jpg);
+    background-color: rgb(127, 197, 156);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -236,7 +235,8 @@ h1 {
 /* Início estilo localização / Rodapé */
 .endereco {
     padding: 40px 0;
-    background-image: url(../img/imagem-fundo-ranking.jpg);
+    background-color: rgb(127, 197, 156);
+    /* background-image: url(../img/Nat.img/bioquimica-o-que-e-definicao-o-que-estuda-funcao-e-metabolismo.jpg); */
 }
 .conteudo-endereco {
     margin: 0 auto;
@@ -294,7 +294,7 @@ h1 {
 }
 footer {
     height: 80px;
-    background-color: #F9003D;
+    background-color: #2fbd82;
     color: white;
     display: flex;
     justify-content: center;
