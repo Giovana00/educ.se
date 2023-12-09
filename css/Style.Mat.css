@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  .container-grid {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+/* Início estilo > Social > Header / Menu */
+header {
+    z-index: 1;
+    background-color: #e7e7e7;
+    height: 80px;
+    position: fixed;
+    width: 100vw;
+  }
+  .conteudo-header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100% !important;
+    align-items: center;
+  }
+  .logo {
+    align-items: flex-end;
+    height: 139px;
+    left: 50%;
+  }
+  .menu-header {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    transition: 0.3s;
+  }
+  .menu-header a:hover:not(.botao) {
+    font-size: 1.6em;
+    color: white;
+  }
+  .menu-header #font {
+    font-family: 'Bebas Neue', sans-serif !important;
+    color: rgb(50, 154, 219);
+    /* !important > força o objeto a utilizar a definição dentro do função important */
+  }
+  #btn-mobile {
+      display: none;
+  }
+  .whatsapp {
+    position: fixed;
+    z-index: 2;
+    top: 82%;
+    right: 40px;
+  }
+  .whatsapp img {
+    height: 60px;
+  }
+  .botao {
+    background-color: #A259F7;
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 1.5em !important;
+    border: solid 1px #080324;
+    border-radius: 30px 10px;
+  }
+  .botao:hover {
+    color: white;
+    font-size: 1.6em !important;
+    height: 50px;
+    line-height: 50px;
+    width: 160px;
+    transition: 0.3s;
+    box-shadow: 4px 4px 6px #0000007a;
+  }
+  .menu-barras {
+    display: none;
+  }
+/* Fim estilo > Social > Header / Menu */
+/* Início Introdução */
+.secao-introducao {
+    padding-top: 0;
+    padding-bottom: 25px;
+    background-color: rgb(138, 203, 247);
+    box-shadow: 5px 5px 5px rgba(37, 131, 255, 0.726);
+}
+/* Início Faixa Topo */
+.secao-introducao .secao-intro-img {
+    height: 200px;
+    width: 100%;
+}
+.secao-introducao .secao-intro-img img {
+    width: 100%;
+    height: 200px;
+    box-shadow: 3px 3px 3px rgba(37, 131, 255, 0.726);
+}
+/* Fim Faixa Topo */
+.secao-introducao h1 {
+    font-family: 'Bebas Neue', sans-serif !important;
+    padding-top: 40px;
+    color: #2584ff;
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+.secao-introducao p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.imagem-sobre {
+    width: 45%;
+    height: 500px;
+}
+.texto-sobre {
+    width: 50%;
+    text-align: justify;
+}
+.conteudo-sobre {
+    display: flex;
+    justify-content: center; 
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.texto-topicos {
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 600;
+}
+.conteudo-sobre h3 {
+    color: #2584ff;
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 30px;
+    font-family: 'Bebas Neue', sans-serif !important;
+}
+.texto-sobre ul {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 35px;
+    padding-top: 30px;
+}
+/* Fim Introdução */
+/* Início Vídeo Completo */
+.section-banner-home {
+    width: 100%;
+    margin-top: 10px;
+    height: 650px;
+    padding: 50px;
+    background-image: url(../img/Mat.img/Fundo\ matemática\ 2.1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 3px rgba(37, 131, 255, 0.726);
+    }
+    .section-banner-home iframe {
+        height: 550px;
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .section-banner-home .texto-banner {
+        margin-top: 150px;
+        text-align: center;
+        font-size: 22px;
+        background-color: white;
+        padding: 10px 5px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.507);
+    }
+    .section-banner-home .texto-banner h1 {
+        font-size: 40px;
+        width: 90%; /* width = Largura */
+        font-weight: 600; /* font-weight = Espessura do texto */
+        padding-bottom: 15px; /* padding-bottom = Margem interna > Embaixo */
+        color: #0a3d80;
+        padding-left: 75px;
+        font-family: 'Bebas Neue', sans-serif !important;
+    }
+    .section-banner-home .texto-banner p {
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #0a70f5;
+        text-align: center;
+    }
+    .section-banner-home .texto-banner a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        background-color: #2584ff;
+        padding: 4px 14px;
+        font-size: 17px;
+        transition: 0.3s;
+        border-radius: 15px;
+    }
+    .section-banner-home .texto-banner a:hover {
+        color: rgb(172, 220, 235);
+        text-shadow: 2px 2px 4px rgb(0, 13, 128);
+        font-size: 18px;
+        font-weight: bold;
+    }
+/* Fim Vídeo Completo */
+/* Início Fração */
+.secao-fracao {
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.726);
+}
+.conteudo-fracao {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 2px 2px 2px 3px #0a3d80b6;
+}
+.imagem-fracao {
+    height: 20%;
+    width: 20%;
+}
+.secao-fracao h1 {
+    font-size: 60px;
+    text-align: justify;
+    padding-left: 50px;
+    text-decoration: underline;
+    color:#0a3d80;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif !important;
+}
+.fa-youtube {
+    text-decoration: none;
+    padding-left: 20px;
+    color:#0a70f5;
+    transition: 0.2s;
+}
+.fa-youtube:hover {
+    color:#0a3d80;
+}
+.texto-fracao {
+    text-align: justify;
+    width: 70%;
+    padding-left: 40px;
+}
+.texto-fracao h3 {
+    color: #0a70f5;
+    font-family: 'Bebas Neue', sans-serif !important;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.texto-fracao p {
+    font-size: 20px;
+}
+/* Início Operações F */
+
+.texto-operacoes {
+    text-align: center;
+    margin-top: 30px;
+}
+.texto-operacoes h3 {
+    color: #0a70f5;
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 40px;
+    font-weight: 600;
+}
+.texto-operacoes p {
+    /* color: #3a8dfa; */
+    font-size: 25px;
+}
+.texto-operacoes img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.soma-imagem {
+
+}
+.subtracao-imagem {
+
+}
+.multiplicacao-imagem {
+
+}
+.divisao-imagem {
+
+}
+/* Fim Operações F */
+/* Fim Fração */
+/* Início Faixa Final */
+.secao-fim-img {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.secao-fim-img img {
+    width: 100%;
+    height: 150px;
+    box-shadow: 3px -6px 5px rgba(37, 131, 255, 0.726);
+}
+/* Fim Faixa Final */
+/* Início estilo Localização / Rodapé */
+.endereco {
+    padding: 40px 0;
+    background-image: url(../img/imagem-fundo-ranking.jpg);
+  }
+  .conteudo-endereco {
+    margin: 0 auto;
+    max-width: 850px;
+    position: relative;
+  }
+  .conteudo-endereco h2 {
+    color: #FFAF00;
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .texto-endereco {
+    color: #A259F7;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #010010;
+    border: solid 2px #A259F7;
+    padding: 55px 55px;
+  }
+  .texto-endereco p {
+    width: 100%;
+    font-size: 20px;
+  }
+  .video-responsivo {
+    position: absolute;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .container-video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 30%;
+    max-height: 200px;
+  }
+  footer {
+    height: 80px;
+    background-color: white;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    text-align: center;
+  }
+  .rodape {
+    padding: 50px 50px 0;
+  }
+  .rodape .container #logo-rodape img {
+    height: 50%;
+    width: 50%;
+    padding-left: 10px;
+    transition: transform .3s;
+    display: block;
+  }
+  .rodape .container #logo-rodape:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  .rodape .info-contato p {
+    margin: 0;
+  }
+  .rodape .linkFooter {
+    text-decoration: none;
+    color:#000;
+    font-size: 13px;
+    margin-left: 0.7rem;
+  }
+  .rodape .linkFooter:hover {
+    font-weight: bold;
+  }
+  .rodape .redes-sociais {
+    display: inline-block;
+  }
+  .rodape .redes-sociais img {
+    width: 50px;
+    height: 50px;
+    padding-left: 0;
+    margin-left: 0.8rem; 
+    transition: transform .3s;
+    border-radius: 15px;
+  }
+  .rodape .redes-sociais img:hover{
+    z-index: 1;
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);
+  }
+  .footer-header {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    transition: 0.3s;
+    margin-left: 0.8rem;
+  }
+  .footer-header a:hover:not(.botao) {
+    font-size: 1.6em;
+    color: white;
+  }
+  .footer-header #font {
+    font-family: 'Bebas Neue', sans-serif !important;
+    color: #000;
+    /* !important > força o objeto a utilizar a definição dentro do função important */
+  }
+  /* Fim estilo Localização / Rodapé */
