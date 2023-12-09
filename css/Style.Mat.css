@@ -47,7 +47,7 @@ header {
   }
   .menu-header a:hover:not(.botao) {
     font-size: 1.6em;
-    color: white;
+    color: rgb(75, 123, 255);
   }
   .menu-header #font {
     font-family: 'Bebas Neue', sans-serif !important;
@@ -88,6 +88,7 @@ header {
   .menu-barras {
     display: none;
   }
+  
 /* Fim estilo > Social > Header / Menu */
 /* Início Introdução */
 .secao-introducao {
@@ -166,7 +167,7 @@ header {
     background-image: url(../img/Mat.img/Fundo\ matemática\ 2.1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 3px 3px 3px rgba(37, 131, 255, 0.726);
+    box-shadow: 5px 5px 5px rgba(37, 131, 255, 0.726);
     }
     .section-banner-home iframe {
         height: 550px;
@@ -186,9 +187,9 @@ header {
         font-size: 40px;
         width: 90%; /* width = Largura */
         font-weight: 600; /* font-weight = Espessura do texto */
-        padding-bottom: 15px; /* padding-bottom = Margem interna > Embaixo */
         color: #0a3d80;
         padding-left: 75px;
+        padding-top: 10px;
         font-family: 'Bebas Neue', sans-serif !important;
     }
     .section-banner-home .texto-banner p {
@@ -215,11 +216,11 @@ header {
 /* Fim Vídeo Completo */
 /* Início Fração */
 .secao-fracao {
-    margin-top: 20px;
+    margin-top: 15px;
     padding-top: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.726);
+    box-shadow: 5px 5px 5px rgba(37, 131, 255, 0.726);
 }
 .conteudo-fracao {
     padding-top: 20px;
@@ -231,6 +232,7 @@ header {
 .imagem-fracao {
     height: 20%;
     width: 20%;
+    padding-top: 5px;
 }
 .secao-fracao h1 {
     font-size: 60px;
@@ -266,16 +268,18 @@ header {
     font-size: 20px;
 }
 /* Início Operações F */
-
 .texto-operacoes {
-    text-align: center;
     margin-top: 30px;
+    /* box-shadow: 5px 3px 3px rgb(37, 131, 255, 0.726); */
+    outline: #0a70f5;
+    text-align: center;
 }
 .texto-operacoes h3 {
     color: #0a70f5;
     font-family: 'Bebas Neue', sans-serif !important;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 600;
+    text-align: center;
 }
 .texto-operacoes p {
     /* color: #3a8dfa; */
@@ -286,19 +290,213 @@ header {
     margin-bottom: 10px;
 }
 .soma-imagem {
-
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 .subtracao-imagem {
-
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
 .multiplicacao-imagem {
-
+  height: 50%;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 .divisao-imagem {
-
+  height: 60%;
+  width: auto;
+  padding-top: 10px;
 }
 /* Fim Operações F */
 /* Fim Fração */
+/* Início Porcentagem */
+.conteudo-porcentagem {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  box-shadow: 2px 2px 2px 3px #0a3d80b6;
+}
+.texto-porcentagem {
+  text-align: justify;
+  width: 70%;
+  padding-left: 40px;
+}
+.texto-porcentagem h3 {
+  color: #0a70f5;
+  font-family: 'Bebas Neue', sans-serif !important;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+.texto-porcentagem p {
+  font-size: 20px;
+}
+.imagem-porcentagem {
+  height: 20%;
+  width: 20%;
+}
+/* Início Noções P */
+.texto-nocoes {
+  margin-top: 30px;
+  text-align: center;
+}
+.texto-nocoes h3 {
+  color: #0a70f5;
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+}
+.texto-nocoes p {
+  font-size: 25px;
+}
+.porcentagens-imagem {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  height: 50%;
+  width: 75%;
+}
+.calculop-imagem {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  height: 300px;
+  width: 400;
+}
+.formas-imagem {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  height: 75%;
+  width: 50%;
+}
+.aumento-desconto-imagem {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  height: 70%;
+  width: 80%;
+}
+/* Fim Noções P */
+/* Fim Porcentagem */
+/* Início Regra de Três */
+.conteudo-regratres {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  box-shadow: 2px 2px 2px 3px #0a3d80b6;
+}
+.imagem-regratres {
+  height: 20%;
+  width: 20%;
+  padding-top: 5px;
+}
+.texto-regratres {
+  text-align: justify;
+  width: 70%;
+  padding-left: 40px;
+}
+.texto-regratres h3 {
+  color: #0a70f5;
+  font-family: 'Bebas Neue', sans-serif !important;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+.texto-regratres p {
+  font-size: 20px;
+}
+/* Início Noções R3 */
+.simples-imagem {
+  height: 250px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.composta-imagem {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  height: 300px;
+  width: 50%;
+}
+/* Fim Noções R3 */
+/* Fim Regra de Três */
+/* Início Geometria Plana */
+.conteudo-geometria {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  box-shadow: 2px 2px 2px 3px #0a3d80b6;
+}
+.imagem-geometria {
+  height: 20%;
+  width: 20%;
+}
+.texto-geometria {
+  text-align: justify;
+  width: 70%;
+  padding-left: 40px;
+}
+.texto-geometria h3 {
+  color: #0a70f5;
+  font-family: 'Bebas Neue', sans-serif !important;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+.texto-geometria p {
+  font-size: 20px;
+}
+.tales {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.pitagoras-imagem {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+/* Fim Geometria Plana */
+/* Início Trigonometria */
+.conteudo-trigonometria {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  box-shadow: 2px 2px 2px 3px #0a3d80b6;
+}
+.imagem-trigonometria {
+  height: 20%;
+  width: 20%;
+}
+.texto-trigonometria {
+  text-align: justify;
+  width: 70%;
+  padding-left: 40px;
+}
+.texto-trigonometria h3 {
+  color: #0a70f5;
+  font-family: 'Bebas Neue', sans-serif !important;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+.texto-trigonometria p {
+  font-size: 20px;
+}
+.sencostan {
+  height: 350px;
+}
+/* Fim Trigonometria */
+/* Início Apostila */
+figcaption {
+  font-size: 20px;
+  color: #2d42ff;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif !important;
+}
+/* Fim Apostila */
 /* Início Faixa Final */
 .secao-fim-img {
     height: 150px;
@@ -310,6 +508,21 @@ header {
     height: 150px;
     box-shadow: 3px -6px 5px rgba(37, 131, 255, 0.726);
 }
+.imagem-porcentagem {
+  height: 20%;
+  width: 20%;
+  padding-top: 5px;
+}
+.secao-porcentagem h1 {
+  font-size: 60px;
+  text-align: justify;
+  padding-left: 50px;
+  text-decoration: underline;
+  color:#0a3d80;
+  font-weight: 600;
+  font-family: 'Bebas Neue', sans-serif !important;
+}
+/* Fim Apostila */
 /* Fim Faixa Final */
 /* Início estilo Localização / Rodapé */
   footer {
