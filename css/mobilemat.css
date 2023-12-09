@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+    .conteudo-social {
+        padding-top: 0.3%;
+    }
+    .menu-header {
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: rgba(5, 39, 83, 0.993);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        height: 300px;
+        width: 100%;
+    }
+    .titulo-senai {
+        font-size: 42px;
+    }
+    .menu-barras {
+        display: initial;
+    }
+    #icone-menu {
+        color: rgb(42, 152, 255);
+        font-size: 30px;
+    }
+}
