@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Style.Home.css" />
+    <link rel="stylesheet" href="./css/mobileins.css" />
+    <link rel="stylesheet" href="./bootstrap/gi/bootstrap/css/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/4b225fd781.js" crossorigin="anonymous"></script>
+    <title>EDUC.SE</title>
+</head>
+
+<body>
+    <!-- Início Menu -->
+    <header>
+        <div class="container-grid conteudo-header">
+            <img class="logo" href="./home.html" src="./img/Logo.img/EDUC.SE.png" alt="Logo EDUC.SE" />
+            <nav id="menu-header" class="menu-header">
+                <a href="./home.html" title="Início da Página" class="fa-solid fa-house" style="color: #329adb;"></a>
+                <a id="font" href="./ling.html">Linguagens</a>
+                <a id="font" href="./mat.html">Matemática</a>
+                <a id="font" href="./hum.html">Humanas</a>
+                <a id="font" href="./nat.html">Natureza</a>
+                <a id="font" href="mailto:contatodireto@educ.se.br">Contate-nos</a>
+            </nav>
+            <a class="menu-barras" href="javascript: void(0)" onclick="mostrarMenu()">
+                <i id="icone-menu" class="fas fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <!-- Fim Menu -->
+    <!-- Início Main -->
+    <main>
+        <!-- Início Banner -->
+        <div class="banner">
+            <div class="container-grid conteudo-banner">
+                <div class="texto-banner">
+                    <h1>EDUC.SE</h1>
+                    <div class="linha-amarela"></div>
+                    <span class="titulo-senai">Seu futuro está aqui!</span>
+                </div>
+            </div>
+        </div>
+        <!-- Fim Banner -->
+
+        <!-- Inicio formulario contato -->
+        <section class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="section-title">
+                            <h1>Cadastre-se</h1><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <form action="/" class="mb-4 mb-lg-0">
+                            <div class="form-row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="nome" class="form-control" id="name"
+                                        placeholder="Nome Completo" />
+                                </div><br>
+                                <div class="col-md-6 form-group">
+                                    <input type="date" name="data" class="form-control" id="data"
+                                        placeholder="Data de Nascimento" />
+                                </div><br>
+                                <form action="" method="post">
+                                    <label for="opcao">Nível de Escolaridade</label>
+                                    <select id="opcao" name="opcao">
+                                        <option value="opcao1"></option>
+                                        <option value="opcao2">Fundamental II incompleto</option>
+                                        <option value="opcao3">Fundamental II completo</option>
+                                        <option value="opcao4">Ensino Médio incompleto</option>
+                                        <option value="opcao5">Ensino Médio completo</option>
+                                        <option value="opcao6">Ensino Superior</option>
+                                    </select><br><br>
+                                    <div class="col-md-6 form-group">
+                                        <input type="email" class="form-control" name="name" id="email"
+                                            placeholder="Email" />
+                                    </div>
+                            </div><br>
+                            <div class="col-md-6 form-group">
+                                <input type="text" class="form-control" name="Local" id="Local"
+                                    placeholder="Endereço" />
+                            </div>
+                            <br>
+                            <div class="col-md-6 form-group">
+                                <input type="password" class="form-control" name="senha" id="senha"
+                                    placeholder="Senha" />
+                            </div>
+                            <br>
+                            <div class="col-md-6 form-group">
+                                <input type="password" class="form-control" name="senha" id="senha"
+                                    placeholder="Confirmar senha" />
+                            </div>
+                            <br>
+                            <button type="submit" class="btn btn-light">Cadastrar</button>
+                        </form>
+                    </div>
+                    <!-- Inicio espaço de marketing -->
+                    <div class="col-lg-5">
+                        <div class="market-place">
+                            <figure>
+                                <br><a href="#"></a><img src="./img/Contato.img/formando.gif" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Fim formulario contato -->
+
+
+        <br><br><br><br><br>
+        <footer class="rodape">
+            <div class="container">
+                <div class="row m-0">
+                    <!-- Inicio logo -->
+                    <div id="logo-rodape" class="col-md-4">
+                        <figure>
+                            <img src="./img/Logo.img/EDUC.SE.png" alt="Logo Rodape">
+                        </figure>
+                    </div>
+                    <!-- Fim logo -->
+                    <!-- Inicio Texto -->
+                    <div class="col-md-4">
+                        <div class="info-contato">
+                            <p><strong>Email: </strong></p>
+                            <p>contatodireto@educ.se.br</p><br>
+                            <p><strong>Telefone: </strong></p>
+                            <p>+55 15 4002-3169</p>
+                        </div>
+                    </div>
+                    <!-- Fim Texto -->
+                    <!-- Inicio Mídias sociais -->
+                    <div class="col-md-4">
+                        <figure class="redes-sociais">
+                            <a href="https://facebook.com"><img src="./img/Rede social.img/face.png" alt="Facebook"></a>
+                            <a href="https://instagram.com"><img src="./img/Rede social.img/insta.png"
+                                    alt="Instagram"></a>
+                            <a href="https://youtube.com"><img src="./img/Rede social.img/youtube.png"
+                                    alt="Youtube"></a>
+                            <a href="https://web.whatsapp.com"><img src="./img/Rede social.img/whats.png"
+                                    alt="WhatsApp"></a>
+                        </figure>
+                        <br>
+                        <nav id="footer-header" class="footer-header">
+                            <a href="./home.html" title="Início da Página" class="fa-solid fa-house"
+                                style="color: #000;"></a>
+                            <a id="font" href="./ling.html">Linguagens</a>
+                            <a id="font" href="./mat.html">Matemática</a>
+                            <a id="font" href="./hum.html">Humanas</a>
+                            <a id="font" href="./nat.html">Natureza</a>
+                            <a id="font" href="mailto:contatodireto@educ.se.br">Contate-nos</a>
+                        </nav>
+                    </div>
+                    <!-- Fim Mídias sociais -->
+                    <!-- Início Footer -->
+                    <footer>
+                        <span>Copyright &copy; 2023 - Instituto de Ensino EDUC.SE</span>
+                    </footer>
+                    <!-- Fim Footer -->
+    </main>
+    <!-- Fim Main -->
+</body>
+
+<script src="./js/mostrarMenu.js"></script>
+<script src="./bootstrap/gi/bootstrap/js/bootstrap.min.js"></script>
+
+</html>
