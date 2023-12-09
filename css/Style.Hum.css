@@ -180,7 +180,7 @@ header {
 /* Para aplicar estilos no ID > utilize a hashtag [#] antes do objeto */
 .section-banner-home {
     width: 100%;
-    height: 500px;
+    height: 520px;
     margin-top: 5px;
     padding: 50px;
     background-color: #e9bd86;
@@ -352,12 +352,15 @@ header {
   margin: 30px 0px;
   width: 35%;   
 }
+.novidades .img-fluid {
+  display: flex;
+}
 
 /* Fim estilo materias */
 
   /* Inicio Rodapé */
   footer {
-    height: 80px;
+    height: auto;
     background-color: white;
     color: #000;
     display: flex;
@@ -405,6 +408,7 @@ header {
     margin-left: 0.8rem; 
     transition: transform .3s;
     border-radius: 15px;
+    margin-top: 10px;
   }
   .rodape .redes-sociais img:hover{
     z-index: 1;
