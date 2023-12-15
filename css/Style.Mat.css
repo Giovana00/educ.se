@@ -3,70 +3,85 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  body {
+}
+
+body {
     font-family: 'Bebas Neue', sans-serif;
-  }
-  .container-grid {
+}
+
+.container-grid {
     width: 85%;
     max-width: 1200px;
     margin: 0 auto;
-  }
+}
+
+
 /* Início estilo > Social > Header / Menu */
+
 header {
     z-index: 1;
     background-color: #e7e7e7;
     height: 80px;
     position: fixed;
     width: 100vw;
-  }
-  .conteudo-header {
+}
+
+.conteudo-header {
     display: flex;
     justify-content: space-between;
     height: 100%;
     width: 100% !important;
     align-items: center;
-  }
-  .logo {
+}
+
+.logo {
     align-items: flex-end;
     height: 139px;
     left: 50%;
-  }
-  .menu-header {
+}
+
+.menu-header {
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .menu-header a {
+}
+
+.menu-header a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.25em;
     transition: 0.3s;
-  }
-  .menu-header a:hover:not(.botao) {
+}
+
+.menu-header a:hover:not(.botao) {
     font-size: 1.6em;
     color: rgb(75, 123, 255);
-  }
-  .menu-header #font {
+}
+
+.menu-header #font {
     font-family: 'Bebas Neue', sans-serif !important;
     color: rgb(50, 154, 219);
     /* !important > força o objeto a utilizar a definição dentro do função important */
-  }
-  #btn-mobile {
-      display: none;
-  }
-  .whatsapp {
+}
+
+#btn-mobile {
+    display: none;
+}
+
+.whatsapp {
     position: fixed;
     z-index: 2;
     top: 82%;
     right: 40px;
-  }
-  .whatsapp img {
+}
+
+.whatsapp img {
     height: 60px;
-  }
-  .botao {
+}
+
+.botao {
     background-color: #A259F7;
     height: 45px;
     width: 150px;
@@ -75,8 +90,9 @@ header {
     font-size: 1.5em !important;
     border: solid 1px #080324;
     border-radius: 30px 10px;
-  }
-  .botao:hover {
+}
+
+.botao:hover {
     color: white;
     font-size: 1.6em !important;
     height: 50px;
@@ -84,66 +100,84 @@ header {
     width: 160px;
     transition: 0.3s;
     box-shadow: 4px 4px 6px #0000007a;
-  }
-  .menu-barras {
+}
+
+.menu-barras {
     display: none;
-  }
-  
+}
+
+
 /* Fim estilo > Social > Header / Menu */
+
+
 /* Início Introdução */
+
 .secao-introducao {
     padding-top: 0;
     padding-bottom: 25px;
     background-color: rgb(138, 203, 247);
     box-shadow: 5px 5px 5px rgba(37, 131, 255, 0.726);
 }
+
+
 /* Início Faixa Topo */
+
 .secao-introducao .secao-intro-img {
     height: 200px;
     width: 100%;
 }
+
 .secao-introducao .secao-intro-img img {
     width: 100%;
     height: 200px;
     box-shadow: 3px 3px 3px rgba(37, 131, 255, 0.726);
 }
+
+
 /* Fim Faixa Topo */
+
 .secao-introducao h1 {
     font-family: 'Bebas Neue', sans-serif !important;
     padding-top: 40px;
     color: #2584ff;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 600;
     margin-bottom: 25px;
     text-align: center;
     text-decoration: underline;
 }
+
 .secao-introducao p {
     color: rgb(255, 255, 255);
     font-size: 30px;
     text-align: center;
     padding-bottom: 40px;
 }
+
 .imagem-sobre {
     width: 45%;
     height: 500px;
 }
+
 .texto-sobre {
     width: 50%;
     text-align: justify;
 }
+
 .conteudo-sobre {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     margin-left: 100px;
     margin-bottom: 50px;
 }
+
 .texto-topicos {
     color: white;
     text-transform: uppercase;
     font-size: 35px;
     font-weight: 600;
 }
+
 .conteudo-sobre h3 {
     color: #2584ff;
     font-size: 50px;
@@ -151,14 +185,20 @@ header {
     padding-top: 30px;
     font-family: 'Bebas Neue', sans-serif !important;
 }
+
 .texto-sobre ul {
     color: rgb(255, 255, 255);
     text-align: justify;
     font-size: 35px;
     padding-top: 30px;
 }
+
+
 /* Fim Introdução */
+
+
 /* Início Vídeo Completo */
+
 .section-banner-home {
     width: 100%;
     margin-top: 10px;
@@ -168,53 +208,66 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 5px 5px 5px rgba(37, 131, 255, 0.726);
-    }
-    .section-banner-home iframe {
-        height: 550px;
-        width: 90%;
-        display: block;
-        margin: auto;
-    }
-    .section-banner-home .texto-banner {
-        margin-top: 150px;
-        text-align: center;
-        font-size: 22px;
-        background-color: white;
-        padding: 10px 5px;
-        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.507);
-    }
-    .section-banner-home .texto-banner h1 {
-        font-size: 40px;
-        width: 90%; /* width = Largura */
-        font-weight: 600; /* font-weight = Espessura do texto */
-        color: #0a3d80;
-        padding-left: 75px;
-        padding-top: 10px;
-        font-family: 'Bebas Neue', sans-serif !important;
-    }
-    .section-banner-home .texto-banner p {
-        font-size: 20px;
-        margin-bottom: 15px;
-        color: #0a70f5;
-        text-align: center;
-    }
-    .section-banner-home .texto-banner a {
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        background-color: #2584ff;
-        padding: 4px 14px;
-        font-size: 17px;
-        transition: 0.3s;
-        border-radius: 15px;
-    }
-    .section-banner-home .texto-banner a:hover {
-        color: rgb(172, 220, 235);
-        text-shadow: 2px 2px 4px rgb(0, 13, 128);
-        font-size: 18px;
-        font-weight: bold;
-    }
+}
+
+.section-banner-home iframe {
+    height: 550px;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.section-banner-home .texto-banner {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 22px;
+    background-color: white;
+    padding: 10px 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.507);
+}
+
+.section-banner-home .texto-banner h1 {
+    font-size: 40px;
+    width: 90%;
+    /* width = Largura */
+    font-weight: 600;
+    /* font-weight = Espessura do texto */
+    color: #0a3d80;
+    padding-left: 75px;
+    padding-top: 10px;
+    font-family: 'Bebas Neue', sans-serif !important;
+}
+
+.section-banner-home .texto-banner p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #0a70f5;
+    text-align: center;
+}
+
+.section-banner-home .texto-banner a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #2584ff;
+    padding: 4px 14px;
+    font-size: 17px;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.section-banner-home .texto-banner a:hover {
+    color: rgb(172, 220, 235);
+    text-shadow: 2px 2px 4px rgb(0, 13, 128);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
 /* Fim Vídeo Completo */
+
+
 /* Início Fração */
+
 .secao-fracao {
     margin-top: 15px;
     padding-top: 30px;
@@ -222,6 +275,7 @@ header {
     background-color: rgb(255, 255, 255);
     box-shadow: 5px 5px 5px rgba(37, 131, 255, 0.726);
 }
+
 .conteudo-fracao {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -229,34 +283,40 @@ header {
     display: flex;
     box-shadow: 2px 2px 2px 3px #0a3d80b6;
 }
+
 .imagem-fracao {
     height: 20%;
     width: 20%;
     padding-top: 5px;
 }
+
 .secao-fracao h1 {
     font-size: 60px;
     text-align: justify;
     padding-left: 50px;
     text-decoration: underline;
-    color:#0a3d80;
+    color: #0a3d80;
     font-weight: 600;
     font-family: 'Bebas Neue', sans-serif !important;
 }
+
 .fa-youtube {
     text-decoration: none;
     padding-left: 20px;
-    color:#0a70f5;
+    color: #0a70f5;
     transition: 0.2s;
 }
+
 .fa-youtube:hover {
-    color:#0a3d80;
+    color: #0a3d80;
 }
+
 .texto-fracao {
     text-align: justify;
     width: 70%;
     padding-left: 40px;
 }
+
 .texto-fracao h3 {
     color: #0a70f5;
     font-family: 'Bebas Neue', sans-serif !important;
@@ -264,16 +324,21 @@ header {
     font-size: 40px;
     font-weight: 600;
 }
+
 .texto-fracao p {
     font-size: 20px;
 }
+
+
 /* Início Operações F */
+
 .texto-operacoes {
     margin-top: 30px;
     /* box-shadow: 5px 3px 3px rgb(37, 131, 255, 0.726); */
     outline: #0a70f5;
     text-align: center;
 }
+
 .texto-operacoes h3 {
     color: #0a70f5;
     font-family: 'Bebas Neue', sans-serif !important;
@@ -281,326 +346,465 @@ header {
     font-weight: 600;
     text-align: center;
 }
+
 .texto-operacoes p {
     /* color: #3a8dfa; */
     font-size: 25px;
 }
+
 .texto-operacoes img {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .soma-imagem {
-  padding-bottom: 20px;
-  padding-top: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
+
 .subtracao-imagem {
-  padding-top: 10px;
-  padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
+
 .multiplicacao-imagem {
-  height: 50%;
-  width: auto;
-  padding-top: 10px;
-  padding-bottom: 20px;
+    height: 50%;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
+
 .divisao-imagem {
-  height: 60%;
-  width: auto;
-  padding-top: 10px;
+    height: 60%;
+    width: auto;
+    padding-top: 10px;
 }
+
+
 /* Fim Operações F */
+
+
 /* Fim Fração */
+
+
 /* Início Porcentagem */
+
 .conteudo-porcentagem {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  justify-content: center;
-  display: flex;
-  box-shadow: 2px 2px 2px 3px #0a3d80b6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 2px 2px 2px 3px #0a3d80b6;
 }
+
 .texto-porcentagem {
-  text-align: justify;
-  width: 70%;
-  padding-left: 40px;
+    text-align: justify;
+    width: 70%;
+    padding-left: 40px;
 }
+
 .texto-porcentagem h3 {
-  color: #0a70f5;
-  font-family: 'Bebas Neue', sans-serif !important;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 600;
+    color: #0a70f5;
+    font-family: 'Bebas Neue', sans-serif !important;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
 }
+
 .texto-porcentagem p {
-  font-size: 20px;
+    font-size: 20px;
 }
+
 .imagem-porcentagem {
-  height: 20%;
-  width: 20%;
+    height: 20%;
+    width: 20%;
 }
+
+
 /* Início Noções P */
+
 .texto-nocoes {
-  margin-top: 30px;
-  text-align: center;
+    margin-top: 30px;
+    text-align: center;
 }
+
 .texto-nocoes h3 {
-  color: #0a70f5;
-  font-family: 'Bebas Neue', sans-serif !important;
-  font-size: 45px;
-  font-weight: 600;
-  text-align: center;
+    color: #0a70f5;
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
 }
+
 .texto-nocoes p {
-  font-size: 25px;
+    font-size: 25px;
 }
+
 .porcentagens-imagem {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  height: 50%;
-  width: 75%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 50%;
+    width: 75%;
 }
+
 .calculop-imagem {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  height: 300px;
-  width: 400;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 300px;
+    width: 400;
 }
+
 .formas-imagem {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  height: 75%;
-  width: 50%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 75%;
+    width: 50%;
 }
+
 .aumento-desconto-imagem {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  height: 70%;
-  width: 80%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 70%;
+    width: 80%;
 }
+
+
 /* Fim Noções P */
+
+
 /* Fim Porcentagem */
+
+
 /* Início Regra de Três */
+
 .conteudo-regratres {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  justify-content: center;
-  display: flex;
-  box-shadow: 2px 2px 2px 3px #0a3d80b6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 2px 2px 2px 3px #0a3d80b6;
 }
+
 .imagem-regratres {
-  height: 20%;
-  width: 20%;
-  padding-top: 5px;
+    height: 20%;
+    width: 20%;
+    padding-top: 5px;
 }
+
 .texto-regratres {
-  text-align: justify;
-  width: 70%;
-  padding-left: 40px;
+    text-align: justify;
+    width: 70%;
+    padding-left: 40px;
 }
+
 .texto-regratres h3 {
-  color: #0a70f5;
-  font-family: 'Bebas Neue', sans-serif !important;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 600;
+    color: #0a70f5;
+    font-family: 'Bebas Neue', sans-serif !important;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
 }
+
 .texto-regratres p {
-  font-size: 20px;
+    font-size: 20px;
 }
+
+
 /* Início Noções R3 */
+
 .simples-imagem {
-  height: 250px;
-  padding-bottom: 20px;
-  padding-top: 10px;
+    height: 250px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
+
 .composta-imagem {
-  padding-bottom: 20px;
-  padding-top: 10px;
-  height: 300px;
-  width: 50%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    height: 300px;
+    width: 50%;
 }
+
+
 /* Fim Noções R3 */
+
+
 /* Fim Regra de Três */
+
+
 /* Início Geometria Plana */
+
 .conteudo-geometria {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  justify-content: center;
-  display: flex;
-  box-shadow: 2px 2px 2px 3px #0a3d80b6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 2px 2px 2px 3px #0a3d80b6;
 }
+
 .imagem-geometria {
-  height: 20%;
-  width: 20%;
+    height: 20%;
+    width: 20%;
 }
+
 .texto-geometria {
-  text-align: justify;
-  width: 70%;
-  padding-left: 40px;
+    text-align: justify;
+    width: 70%;
+    padding-left: 40px;
 }
+
 .texto-geometria h3 {
-  color: #0a70f5;
-  font-family: 'Bebas Neue', sans-serif !important;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 600;
+    color: #0a70f5;
+    font-family: 'Bebas Neue', sans-serif !important;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
 }
+
 .texto-geometria p {
-  font-size: 20px;
+    font-size: 20px;
 }
+
 .tales {
-  padding-bottom: 20px;
-  padding-top: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
+
 .pitagoras-imagem {
-  padding-bottom: 20px;
-  padding-top: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
+
+
 /* Fim Geometria Plana */
+
+
 /* Início Trigonometria */
+
+.secao-trigonometria {
+    margin-top: 15px;
+    padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(37, 131, 255, 0.726);
+}
+
+.secao-trigonometria h1 {
+    font-size: 60px;
+    text-align: justify;
+    padding-left: 50px;
+    text-decoration: underline;
+    color: #0a3d80;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif !important;
+}
+
 .conteudo-trigonometria {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  justify-content: center;
-  display: flex;
-  box-shadow: 2px 2px 2px 3px #0a3d80b6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 2px 2px 2px 3px #0a3d80b6;
 }
+
 .imagem-trigonometria {
-  height: 20%;
-  width: 20%;
+    height: 20%;
+    width: 20%;
 }
+
 .texto-trigonometria {
-  text-align: justify;
-  width: 70%;
-  padding-left: 40px;
+    text-align: justify;
+    width: 70%;
+    padding-left: 40px;
 }
+
 .texto-trigonometria h3 {
-  color: #0a70f5;
-  font-family: 'Bebas Neue', sans-serif !important;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 600;
+    color: #0a70f5;
+    font-family: 'Bebas Neue', sans-serif !important;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
 }
+
 .texto-trigonometria p {
-  font-size: 20px;
+    font-size: 20px;
 }
+
 .sencostan {
-  height: 350px;
+    padding-top: 15px;
+    height: 350px;
 }
+
+
 /* Fim Trigonometria */
+
+
 /* Início Apostila */
-figcaption {
-  font-size: 20px;
-  color: #2d42ff;
-  text-decoration: none;
-  font-weight: bold;
-  text-align: center;
-  font-family: 'Bebas Neue', sans-serif !important;
+
+.destaque {
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
+
+.destaque h1 {
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif !important;
+    color: #0a3d80;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+figcaption {
+    font-size: 20px;
+    color: #3c7dff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif !important;
+}
+
+.apostilas-enem {
+    height: 190px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.apostila-concurso {
+    height: 190px;
+    margin-bottom: 5px;
+}
+
+
 /* Fim Apostila */
+
+
 /* Início Faixa Final */
+
 .secao-fim-img {
     height: 150px;
     width: 100%;
     margin-bottom: 70px;
 }
+
 .secao-fim-img img {
     width: 100%;
     height: 150px;
     box-shadow: 3px -6px 5px rgba(37, 131, 255, 0.726);
 }
+
 .imagem-porcentagem {
-  height: 20%;
-  width: 20%;
-  padding-top: 5px;
+    height: 20%;
+    width: 20%;
+    padding-top: 5px;
 }
+
 .secao-porcentagem h1 {
-  font-size: 60px;
-  text-align: justify;
-  padding-left: 50px;
-  text-decoration: underline;
-  color:#0a3d80;
-  font-weight: 600;
-  font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 60px;
+    text-align: justify;
+    padding-left: 50px;
+    text-decoration: underline;
+    color: #0a3d80;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif !important;
 }
-/* Fim Apostila */
+
+
 /* Fim Faixa Final */
+
+
 /* Início estilo Localização / Rodapé */
-  footer {
+
+footer {
     height: 80px;
     background-color: white;
     color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  footer span {
+}
+
+footer span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 90%;
     text-align: center;
-  }
-  .rodape {
+}
+
+.rodape {
     padding: 50px 50px 0;
-  }
-  .rodape .container #logo-rodape img {
+}
+
+.rodape .container #logo-rodape img {
     height: 50%;
     width: 50%;
     padding-left: 10px;
     transition: transform .3s;
     display: block;
-  }
-  .rodape .container #logo-rodape:hover {
+}
+
+.rodape .container #logo-rodape:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-  }
-  .rodape .info-contato p {
+}
+
+.rodape .info-contato p {
     margin: 0;
-  }
-  .rodape .linkFooter {
+}
+
+.rodape .linkFooter {
     text-decoration: none;
-    color:#000;
+    color: #000;
     font-size: 13px;
     margin-left: 0.7rem;
-  }
-  .rodape .linkFooter:hover {
+}
+
+.rodape .linkFooter:hover {
     font-weight: bold;
-  }
-  .rodape .redes-sociais {
+}
+
+.rodape .redes-sociais {
     display: inline-block;
-  }
-  .rodape .redes-sociais img {
+}
+
+.rodape .redes-sociais img {
     width: 50px;
     height: 50px;
     padding-left: 0;
-    margin-left: 0.8rem; 
+    margin-left: 0.8rem;
     transition: transform .3s;
     border-radius: 15px;
-  }
-  .rodape .redes-sociais img:hover{
+}
+
+.rodape .redes-sociais img:hover {
     z-index: 1;
     transform: scale(1.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);
-  }
-  .footer-header {
+}
+
+.footer-header {
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .footer-header a {
+}
+
+.footer-header a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.25em;
     transition: 0.3s;
     margin-left: 0.8rem;
-  }
-  .footer-header a:hover:not(.botao) {
+}
+
+.footer-header a:hover:not(.botao) {
     font-size: 1.6em;
     color: white;
-  }
-  .footer-header #font {
+}
+
+.footer-header #font {
     font-family: 'Bebas Neue', sans-serif !important;
     color: #000;
-    /* !important > força o objeto a utilizar a definição dentro do função important */
-  }
-  /* Fim estilo Localização / Rodapé */
+}
+
+
+/* Fim estilo Localização / Rodapé */
