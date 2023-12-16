@@ -121,7 +121,7 @@ header {
     text-decoration: underline;
 }
 .secao-introducao p {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 30px;
     text-align: center;
     padding-bottom: 40px;
@@ -142,7 +142,7 @@ header {
     margin-bottom: 50px;
 }
 .texto-topicos {
-    color: white;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-size: 35px;
     font-weight: 600;
@@ -155,7 +155,7 @@ header {
     font-family: 'Bebas Neue', sans-serif !important;
 }
 .texto-sobre ul {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: justify;
     font-size: 35px;
     padding-top: 30px;
@@ -165,13 +165,16 @@ header {
 .section-banner-home {
     width: 100%;
     margin-top: 10px;
-    height: 650px;
+    height: auto;
     padding: 50px;
     box-shadow: 5px 5px 5px rgba(255, 251, 0, 0.726);
-    background-color: rgb(247, 240, 138);
+    /* background-color: rgb(247, 240, 138); */
+    background-image: url(../img/Ling.img/wallper_amarelo_fundo_editada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     }
     .section-banner-home iframe {
-        height: 550px;
+        height: 100%;
         width: 90%;
         display: block;
         margin: auto;
@@ -180,10 +183,25 @@ header {
         margin-top: 150px;
         text-align: center;
         font-size: 22px;
-        background-color: white;
+        background-color: rgb(0, 0, 0);
         padding: 10px 5px;
     }
 /* Fim Vídeo Completo */
+
+/* Início Libras */
+.conteudo-libras {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.imagem-libras {
+height: 110px;
+}
+.imagem-libras-segunda {
+height: 310px;
+justify-content: center;
+}
 /* Início Libras */
 .conteudo-libras {
     display: flex;
@@ -198,15 +216,151 @@ header {
   height: 310px;
   justify-content: center;
 }
-.linguagem-informal-formal {
+/* .linguagem-informal-formal {
   height: 110px;
   text-align: center;
 }
 .formal-informal {
   width: 110%;
   text-align: center;
+} */
+.texto-libras {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: center;
+  text-align: justify;
+  width: 70%;
+  padding-left: 40px;
+}
+.texto-libras h3 {
+  color: #000000;
+  font-family: 'Bebas Neue', sans-serif !important;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+.texto-libras p {
+  font-size: 20px;
+}
+.sinais-imagem {
+height: 130px;
+}
+/* Fim Libras */.texto-libras {
+display: flex;
+flex-direction: column;
+height: 60%;
+justify-content: center;
+text-align: justify;
+width: 70%;
+padding-left: 40px;
+}
+.texto-libras h3 {
+color: #000000;
+font-family: 'Bebas Neue', sans-serif !important;
+text-align: center;
+font-size: 40px;
+font-weight: 600;
+}
+.texto-libras p {
+font-size: 20px;
+}
+.sinais-imagem {
+height: 130px;
 }
 /* Fim Libras */
+
+/* Início informal-formal */
+.conteudo-informal-formal {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.imagem-informal-formal {
+height: 110px;
+}
+.imagem-informal-formal-segunda {
+height: 310px;
+justify-content: center;
+}
+.linguagem-informal-formal {
+height: 110px;
+text-align: center;
+}
+.formal-informal {
+width: 110%;
+text-align: center;
+}
+.texto-informal-formal {
+display: flex;
+flex-direction: column;
+height: 60%;
+justify-content: center;
+text-align: justify;
+width: 70%;
+padding-left: 40px;
+}
+.texto-informal-formal h3 {
+color: #000000;
+font-family: 'Bebas Neue', sans-serif !important;
+text-align: center;
+font-size: 40px;
+font-weight: 600;
+}
+.texto-informal-formal p {
+font-size: 20px;
+}
+.sinais-imagem {
+height: 130px;
+}
+/* Fim informal-formal */
+/* Início interpreta */
+.conteudo-interpreta {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.imagem-interpreta {
+height: 110px;
+}
+.imagem-interpreta-segunda {
+height: 310px;
+justify-content: center;
+}
+.linguagem-interpreta {
+height: 110px;
+text-align: center;
+}
+.formal-informal {
+width: 110%;
+text-align: center;
+}
+.texto-interpreta {
+display: flex;
+flex-direction: column;
+height: 60%;
+justify-content: center;
+text-align: justify;
+width: 70%;
+padding-left: 40px;
+}
+.texto-interpreta h3 {
+color: #000000;
+font-family: 'Bebas Neue', sans-serif !important;
+text-align: center;
+font-size: 40px;
+font-weight: 600;
+}
+.texto-interpreta p {
+font-size: 20px;
+}
+.sinais-imagem {
+height: 130px;
+}
+/* Fim interpreta */
+
 .fa-youtube {
     text-decoration: none;
     padding-left: 20px;
@@ -216,28 +370,7 @@ header {
 .fa-youtube:hover {
     color:#0a3d80;
 }
-.texto-libras {
-    display: flex;
-    flex-direction: column;
-    height: 60%;
-    justify-content: center;
-    text-align: justify;
-    width: 70%;
-    padding-left: 40px;
-}
-.texto-libras h3 {
-    color: #ffffff;
-    font-family: 'Bebas Neue', sans-serif !important;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
-}
-.texto-libras p {
-    font-size: 20px;
-}
-.sinais-imagem {
-  height: 130px;
-}
+
 /* Início Faixa Final */
 .secao-fim-img {
     height: 150px;
@@ -251,7 +384,7 @@ header {
 /* Fim Faixa Final */
 /* Início estilo Localização / Rodapé */
   footer {
-    height: 80px;
+    height: 200px;
     background-color: white;
     color: #000;
     display: flex;
@@ -264,7 +397,9 @@ header {
     text-align: center;
   }
   .rodape {
-    padding: 50px 50px 0;
+    padding: 0px 50px 0;
+    height: 300px;
+    width: 100%;
   }
   .rodape .container #logo-rodape img {
     height: 50%;
@@ -329,3 +464,76 @@ header {
     /* !important > força o objeto a utilizar a definição dentro do função important */
   }
   /* Fim estilo Localização / Rodapé */
+
+  @media screen and (max-width: 1200px) {
+    .menu-header {
+      width: 60%;
+    }
+    .conteudo-sobre {
+      flex-direction: column;
+      align-items: center;
+    }
+    .imagem-sobre {
+      width: 80%;
+    }
+    .texto-sobre {
+      width: 80%;
+      margin-top: 45px;
+      display: flex;
+      flex-direction: column;
+      height: 430px;
+      justify-content: space-between;
+    }
+    .conteudo-info {
+      align-items: center;
+    }
+    .conteudo-endereco {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 660px;
+      justify-content: space-between;
+    }
+    .conteudo-endereco h2 {
+      align-self: flex-start;
+    }
+    .texto-endereco p {
+      width: 100%;
+    }
+    .container-mapa {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      padding-top: 20%;
+    }
+    .mapa-responsivo {
+      position: absolute;
+      margin-top: 10px;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .video-responsivo {
+      position: absolute;
+      margin-top: 10px;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .container-video {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      padding-top: 30%;
+      max-height: 200px;
+    }  
+  }
+  
+  /* Fim estilo Mobile > Tablets */
+  
