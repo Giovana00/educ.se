@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -7,6 +8,7 @@ body {
     .conteudo-social {
         padding-top: 0.3%;
     }
+
     .menu-header {
         display: none;
         flex-direction: column;
@@ -18,27 +20,34 @@ body {
         height: 300px;
         width: 100%;
     }
+
     .titulo-senai {
         font-size: 42px;
     }
+
     .menu-barras {
         display: initial;
     }
+
     #icone-menu {
         color: white;
         font-size: 30px;
         margin-right: 20px;
     }
+
     .banner {
         background-image: url(../img/Nat.img/Fundo\ Banner\ Ciências.jpg);
     }
+
     .imagem-sobre {
         width: 100%;
     }
+
     .texto-sobre {
         width: 100%;
         height: unset;
     }
+
     .conteudo-info {
         display: flex;
         flex-direction: column;
@@ -46,16 +55,19 @@ body {
         height: 480px;
         justify-content: space-between;
     }
+
     .conteudo-sobre {
         flex-direction: column;
         align-items: center;
     }
+
     .container-mapa {
         position: relative;
         overflow: hidden;
         width: 100%;
         padding-top: 20%;
     }
+
     .mapa-responsivo {
         position: absolute;
         margin-top: 10px;
@@ -66,6 +78,7 @@ body {
         width: 100%;
         height: 100%;
     }
+
     .video-responsivo {
         position: absolute;
         margin-top: 10px;
@@ -76,6 +89,7 @@ body {
         width: 100%;
         height: 100%;
     }
+
     .container-video {
         position: relative;
         overflow: hidden;
@@ -83,9 +97,12 @@ body {
         padding-top: 30%;
         max-height: 200px;
     }
+
     .section-banner-home {
         width: 100%;
+        /*100%*/
         height: 600px;
+        /*600px*/
         margin-top: 10px;
         padding: 50px;
         background-color: #e9bd86;
@@ -93,16 +110,248 @@ body {
         text-decoration: none;
         box-shadow: 3px 3px 6px #b1b1b1;
     }
+
     .section-materias-home {
         width: 100%;
         height: 1800px;
         margin-top: 5px;
+        /*5px*/
         padding: 50px;
         background-color: #c4a070;
         color: white;
         text-decoration: none;
         box-shadow: 3px 3px 6px #b1b1b1;
     }
+
+
+    /* Início estilo Banner Biologia */
+
+    .section-Biologia-home {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-top: 10px;
+        padding: 50px;
+        background-color: rgb(127, 197, 156);
+        /* background-color: #71b7e0; */
+        box-shadow: 3px 3px 6px #b1b1b1;
+        /* Sombra Banner*/
+    }
+
+    .section-Biologia-home img {
+        max-height: 400px;
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+
+    /* .texto-Biologia {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: center;
+} */
+
+    .section-Biologia-home .texto-Biologia {
+        margin-top: 30px;
+        font-size: 22px
+    }
+
+    .section-Biologia-home .texto-Biologia h1 {
+        font-size: 30px;
+        width: 90%;
+        /* Width = Largura*/
+        font-weight: 500;
+        /* Espessura do texto */
+        padding-bottom: 20px;
+        /* Parte interna > embaixo */
+        color: white;
+        text-align: justify;
+    }
+
+    .section-Biologia-home .texto-Biologia p {
+        font-size: 15px;
+        /*15px*/
+        margin-bottom: 20px;
+        color: white;
+        text-align: justify;
+    }
+
+    .section-Biologia-home .texto-Biologia a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        background-color: rgba(5, 61, 10, 0.781);
+        padding: 4px 14px;
+        font-size: 17px;
+        transition: 0.3s;
+        /* Deixando o efeito suave */
+    }
+
+    .section-Biologia-home .texto-Biologia a:hover {
+        color: white;
+        /* Cor do Texto */
+        text-shadow: 2px 2px 4px #ffffff7a;
+        /* Sobra do texto  */
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+
+    /* Fim estilo Banner Biologia */
+
+
+    /* Início estilo Banner Física */
+
+.section-Física-home {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 50px;
+    background-color: #171994b0;
+    /* background-color: #71b7e0; */
+    box-shadow: 3px 3px 6px #b1b1b1;
+    /* Sombra Banner*/
+}
+
+.section-Física-home img {
+    max-height: 400px;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+
+/* .texto-Física {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: center;
+} */
+
+.section-Física-home .texto-Física {
+    margin-top: 30px;
+    font-size: 22px
+}
+
+.section-Física-home .texto-Física h1 {
+    font-size: 30px;
+    width: 90%;
+    /* Width = Largura*/
+    font-weight: 500;
+    /* Espessura do texto */
+    padding-bottom: 20px;
+    /* Parte interna > embaixo */
+    color: white;
+    text-align: justify;
+}
+
+.section-Física-home .texto-Física p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.section-Física-home .texto-Física a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #524788;
+    padding: 4px 14px;
+    font-size: 17px;
+    transition: 0.3s;
+    /* Deixando o efeito suave */
+}
+
+.section-Física-home .texto-Física a:hover {
+    color: white;
+    /* Cor do Texto */
+    text-shadow: 2px 2px 4px #ffffff7a;
+    /* Sobra do texto  */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Fim estilo Banner Física */
+
+
+/* Início estilo Banner Química */
+
+.section-Química-home {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 50px;
+    background-color: #3e9494e0;
+    /* background-color: #71b7e0; */
+    box-shadow: 3px 3px 6px #b1b1b1;
+    /* Sombra Banner*/
+}
+
+.section-Química-home img {
+    max-height: 400px;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+
+/* .texto-Química {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: center;
+} */
+
+.section-Química-home .texto-Química {
+    margin-top: 30px;
+    font-size: 22px
+}
+
+.section-Química-home .texto-Química h1 {
+    font-size: 30px;
+    width: 90%;
+    /* Width = Largura*/
+    font-weight: 500;
+    /* Espessura do texto */
+    padding-bottom: 20px;
+    /* Parte interna > embaixo */
+    color: white;
+    text-align: justify;
+}
+
+.section-Química-home .texto-Química p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.section-Química-home .texto-Química a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgba(19, 201, 186, 0.849);
+    padding: 4px 14px;
+    font-size: 17px;
+    transition: 0.3s;
+    /* Deixando o efeito suave */
+}
+
+.section-Química-home .texto-Química a:hover {
+    color: white;
+    /* Cor do Texto */
+    text-shadow: 2px 2px 4px #ffffff7a;
+    /* Sobra do texto  */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Fim estilo Banner Química */
+
     .novidades #novidades-mobile .col-md-6 .img-fluid {
         max-width: 50px;
         width: 70%;
