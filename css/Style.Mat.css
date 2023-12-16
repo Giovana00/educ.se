@@ -110,6 +110,21 @@ header {
 /* Fim estilo > Social > Header / Menu */
 
 
+/* Início estilo Mobile > Tablets */
+
+@media screen and (max-width: 1200px) {
+    .imagem-sobre {
+        width: 150%;
+    }
+    .section-banner-home {
+        width: 100%;
+    }
+}
+
+
+/* Fim estilo Mobile > Tablets */
+
+
 /* Início Introdução */
 
 .secao-introducao {
@@ -477,6 +492,24 @@ header {
 
 /* Início Regra de Três */
 
+.secao-regratres {
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(37, 131, 255, 0.726);
+}
+
+.secao-regratres h1 {
+    font-size: 60px;
+    text-align: justify;
+    padding-left: 50px;
+    text-decoration: underline;
+    color: #0a3d80;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif !important;
+}
+
 .conteudo-regratres {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -533,6 +566,24 @@ header {
 
 
 /* Início Geometria Plana */
+
+.secao-geometria {
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(37, 131, 255, 0.726);
+}
+
+.secao-geometria h1 {
+    font-size: 60px;
+    text-align: justify;
+    padding-left: 50px;
+    text-decoration: underline;
+    color: #0a3d80;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif !important;
+}
 
 .conteudo-geometria {
     padding-top: 20px;
@@ -715,7 +766,8 @@ figcaption {
 /* Início estilo Localização / Rodapé */
 
 footer {
-    height: 80px;
+    height: auto;
+    width: 100%;
     background-color: white;
     color: #000;
     display: flex;
