@@ -95,7 +95,7 @@ body {
     }
     .section-materias-home {
         width: 100%;
-        height: 1800px;
+        height: auto;
         margin-top: 5px;
         padding: 50px;
         background-color: #c4a070;
