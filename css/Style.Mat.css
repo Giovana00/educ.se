@@ -112,12 +112,18 @@ header {
 
 /* Início estilo Mobile > Tablets */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
     .imagem-sobre {
         width: 150%;
     }
     .section-banner-home {
         width: 100%;
+    }
+    .section-banner-home h1 {
+        padding-left: 20px;
+    }
+    .imagem-fracao {
+        margin-top: 0;
     }
 }
 
