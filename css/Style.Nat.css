@@ -294,7 +294,7 @@ h1 {
 }
 
 .section-Biologia-home .texto-Biologia p {
-    font-size: 15px;
+    font-size: 75%; /*15px*/
     margin-bottom: 20px;
     color: white;
     text-align: justify;
