@@ -186,10 +186,10 @@ header {
 /* Fim Vídeo Completo */
 /* Início Libras */
 .conteudo-libras {
+    display: flex;
+    justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    justify-content: center;
-    display: flex;
 }
 .imagem-libras {
   height: 110px;
@@ -217,6 +217,10 @@ header {
     color:#0a3d80;
 }
 .texto-libras {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: center;
     text-align: justify;
     width: 70%;
     padding-left: 40px;
@@ -232,7 +236,7 @@ header {
     font-size: 20px;
 }
 .sinais-imagem {
-  height: 260px;
+  height: 130px;
 }
 /* Início Faixa Final */
 .secao-fim-img {
@@ -255,7 +259,7 @@ header {
     align-items: center;
   }
   footer span {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
     width: 90%;
     text-align: center;
   }
