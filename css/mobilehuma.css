@@ -27,6 +27,7 @@ body {
     #icone-menu {
         color: white;
         font-size: 30px;
+        margin-right: 20px;
     }
     .banner {
         background-image: url(../img/Hum.img/mapa.jpg);
